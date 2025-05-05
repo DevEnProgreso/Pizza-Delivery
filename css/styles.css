@@ -1,4 +1,8 @@
 /* base rules */
+body {
+  background: red;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -18,4 +22,54 @@ p {
   font-size: 20px;
   line-height: 30px;
   color: #6c757d;
+}
+
+/* Navigation */
+
+nav.r-nav {
+  background: transparent;
+  padding: 20px 0;
+  transition: 0.5 all;
+}
+
+nav .navbar-brand {
+  font-size: 30px;
+  color: #fff;
+}
+
+nav .navbar-nav li a {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}
+
+nav .navbar-nav li {
+  margin-left: 15px;
+}
+
+nav.r-nav.stickyadd {
+  background: #fff !important;
+  padding: 15px 0;
+  box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05);
+  transition: 0.5s all ease-in-out;
+}
+
+nav.stickyadd .navbar-brand {
+  color: #000;
+  font-size: 40px;
+  transition: 0.5 all;
+}
+
+nav.stickyadd .navbar-nav .nav-link {
+  color: #000 !important;
+}
+
+.navbar .pizza {
+  color: #fff;
+}
+
+nav.stickyadd .pizza {
+  color: #000;
 }
