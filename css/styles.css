@@ -1,7 +1,4 @@
 /* base rules */
-body {
-  background: red;
-}
 
 * {
   margin: 0;
@@ -72,4 +69,15 @@ nav.stickyadd .navbar-nav .nav-link {
 
 nav.stickyadd .pizza {
   color: #000;
+}
+
+/* Header Section */
+
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: url("images\UnaFotoConPizzasEnLaMesaJAJA.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
