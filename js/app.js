@@ -7,4 +7,19 @@ $(document).ready(function () {
       $(".sticky").removeClass("stickyadd");
     }
   });
+
+  var typed = new Typed(".element", {
+    strings: [
+      "The best pizza",
+      "The real Hut",
+      "Better Pizza than Dominos",
+      "Your best Pizza Experience",
+    ],
+    smartBackspace: true,
+    typeSpeed: 100,
+    backSpeed: 100,
+    loop: true,
+    loopCount: Infinity,
+    startDelay: 1000,
+  });
 });
