@@ -21,6 +21,17 @@ p {
   color: #6c757d;
 }
 
+.r-btn {
+  padding: 5px 20px;
+  background-color: #ee8683 !important;
+  color: #fff !important;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
 /* Navigation */
 
 nav.r-nav {
@@ -215,4 +226,26 @@ header {
   width: 40px;
   margin: 15px auto;
   background: #e65f78;
+}
+
+/* Reviews */
+
+.testimony-class .test-item {
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+.testimony-class .test-item .test-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.testimony-class .test-item svg {
+  color: red !important;
+}
+
+.test-item p.test-name {
+  font-size: 20px;
+  color: red;
 }

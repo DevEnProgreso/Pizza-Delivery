@@ -12,7 +12,13 @@ $(document).ready(function () {
       $(".sticky").removeClass("stickyadd");
     }
   });
-
+  //Owl Carousel
+  $(".owl-carousel").owlCarousel({
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    items: 1,
+  });
   // progress bars
 
   var waypoint = new Waypoint({
