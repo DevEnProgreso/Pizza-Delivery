@@ -1,2 +1,2 @@
 # Pizza-Hut-FakeWebPage
-I use Jquery and Bootstrap for this Project.
+I usee Jquery and Bootstrap for this Project.
